@@ -1,22 +1,22 @@
 import React from "react";
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 import styles from "../css/error.module.css";
-import layout from '../components/layout';
-import banner from '../components/banner';
+import Layout from '../components/layout';
+import Banner from '../components/banner';
 
 export default () => {
   return (
-    <layout>
+    <Layout>
       <header className={styles.error}>
-        <banner
+        <Banner
           title="continue exploring"
-          info=" Lorema ipsum dolor sit amet consectetur adipisicing elit. Eius, officiis."
+          info="Newecoworld is under construction...."
         >
           <AniLink fade to="/404" className="btn-white">
             explore new eco world
           </AniLink>
-        </banner>
+        </Banner>
       </header>
-    </layout>
+    </Layout>
   )
 }

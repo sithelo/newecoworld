@@ -1,16 +1,16 @@
 import React from 'react';
 import Footer from '../footer';
-import navbar from '../navbar';
+import Navbar from '../navbar';
 import './style.css';
 
-const layout = ({ children }) => {
+const Layout = ({ children }) => {
     return (
         <>
-            <navbar/>
+            <Navbar/>
             {children}
             <Footer />
         </>
     );
 };
 
-export default layout;
+export default Layout;
