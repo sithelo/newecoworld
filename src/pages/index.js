@@ -26,7 +26,7 @@ return (
 })
 export const query = graphql`
 {
-  bg: file(relativePath: { eq: "bg.png" }) {
+  bg: file(relativePath: { eq: "bg.jpeg" }) {
     childImageSharp {
       fluid(quality: 90, maxWidth: 4160) {
         ...GatsbyImageSharpFluid_withWebp
