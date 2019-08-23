@@ -4,16 +4,16 @@ export default [
     text: "home",
   },
   {
-    path: "/estates",
-    text: "estates",
+    path: "/services",
+    text: "services",
   },
   {
     path: "/blog",
     text: "blog",
   },
   {
-    path: "/blogs",
-    text: "blogs",
+    path: "/about-us",
+    text: "about us",
   },
   {
     path: "/contact",
